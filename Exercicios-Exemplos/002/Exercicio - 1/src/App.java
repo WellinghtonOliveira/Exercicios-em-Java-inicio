@@ -14,15 +14,15 @@ public class App {
     // }
 
     static int myMethodMult(int primeiroNumero, int segundoNumero) {
-        return 0;
+        return primeiroNumero * segundoNumero;
     }
 
     static int myMethodSoma(int primeiroNumero, int segundoNumero) {
-        return 0;
+        return primeiroNumero + segundoNumero;
     }
 
     static int myMethodSubtracao(int primeiroNumero, int segundoNumero) {
-        return 0;
+        return primeiroNumero - segundoNumero;
     }
 
     public static void main(String[] args) throws Exception {
@@ -42,16 +42,19 @@ public class App {
         System.out.print("Digite o segundo número inteiro do termo: ");
         int segundoNumero = scanner.nextInt();
 
+        scanner.close();
         switch (opcao) {
             case 1:
-                myMethodMult(primeiroNumero, segundoNumero);
+                System.out.println(myMethodMult(primeiroNumero, segundoNumero));
                 break;
             case 2:
-                myMethodSoma(primeiroNumero, segundoNumero);
+                System.out.println(myMethodSoma(primeiroNumero, segundoNumero));
                 break;
             case 3:
-                myMethodSubtracao(primeiroNumero, segundoNumero);
+                System.out.println(myMethodSubtracao(primeiroNumero, segundoNumero));
                 break;
+            default: 
+                return;
             
         }
 
