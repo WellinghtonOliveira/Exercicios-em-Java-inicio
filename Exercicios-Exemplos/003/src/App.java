@@ -8,7 +8,7 @@ public class App {
         if (idade < 18) {
             return "Conteúdo educacional recomendado para menores de 18 anos.";
         }
-
+  
         switch (conteudo) {
 
             case 1: // Tecnologia
