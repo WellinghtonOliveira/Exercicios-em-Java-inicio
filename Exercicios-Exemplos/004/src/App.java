@@ -7,8 +7,8 @@ public class App {
         int pares = 0;
         int impares = 0;
         int maiorNum = 0;
-        
-        int[] arrayNums = new int[5];
+         
+        int[] arrayNums = new int[5];   
         
         System.out.println("Vamos analisar alguns números? Você digitará um total de cinco números.");
         
