@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class App { 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class App {
 
         System.out.print("Insira o primeiro número: ");
         int primeiroNumero = scanner.nextInt();
-
+ 
         System.out.print("Insira o segundo número: ");
         int segundoNumero = scanner.nextInt();
 
