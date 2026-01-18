@@ -9,6 +9,5 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         myStaticMethod(); // Call the static method
-        App.myStaticMethod(); // Or call it using class name
-    }
-}
+        App.myStaticMethod(); // Or call it using class name 
+    } 
