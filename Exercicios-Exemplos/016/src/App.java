@@ -1,13 +1,13 @@
 class Animal {
     void som() {
         System.out.println("Som genérico");
-    }
+    } 
 }
 
 class Cachorro extends Animal {
     @Override
     void som() { // Mesma assinatura do método da superclasse, ocorre sobrescrita (override)
-        System.out.println("Latido"); 
+        System.out.println("Latido");  
     }
 }
 
