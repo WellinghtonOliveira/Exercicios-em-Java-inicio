@@ -13,7 +13,7 @@ class Quadrado extends Forma {
     Quadrado(int lado) {
         this.lado = lado;
     }
-
+ 
     @Override
     public double calcularArea() {
         double area = (lado * lado);
