@@ -16,7 +16,7 @@ class Quadrado extends Forma {
  
     @Override
     public double calcularArea() {
-        double area = (lado * lado);
+        double area = (lado * lado); 
         System.out.println("Area do quadrado: " + area);
         return area;
     }
