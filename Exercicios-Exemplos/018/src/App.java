@@ -19,7 +19,7 @@ class FuncionarioCLT extends Funcionario {
 
     @Override
     int salario() {
-        return 1350;
+        return 1350; 
     }
 }
 
