@@ -14,7 +14,7 @@ class Funcionario {
 class FuncionarioCLT extends Funcionario {
     @Override
     void calcularSalario() {
-        System.out.println("CLT: 1350/M");
+        System.out.println("CLT: 1350/M"); 
     }
 
     @Override
