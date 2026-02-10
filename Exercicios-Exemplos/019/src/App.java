@@ -24,7 +24,7 @@ class Quadrado extends Forma {
 
 class Circulo extends Forma {
     int raio;
- 
+  
     Circulo(int raio) {
         this.raio = raio;
     }
