@@ -5,7 +5,7 @@ class Funcionario {
         System.out.println("Salario dos Funcionarios");
     }
 
-    int salario() {
+    int salario() { 
         System.out.println("Bruto");
         return 0;
     }
