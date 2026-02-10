@@ -27,7 +27,7 @@ class FuncionarioPJ extends Funcionario {
     @Override
     void calcularSalario() {
         System.out.println("PJ: 15/H");
-    }
+    } 
 
     @Override
     int salario() {
