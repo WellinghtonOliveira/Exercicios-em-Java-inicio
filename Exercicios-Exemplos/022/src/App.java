@@ -16,7 +16,7 @@ public class App {
         valor %= 10000;
 
         int n50 = valor / 5000;
-        valor %= 5000;
+        valor %= 5000; 
 
         int n20 = valor / 2000;
         valor %= 2000;
@@ -28,7 +28,7 @@ public class App {
         valor %= 500;
 
         int n2 = valor / 200;
-        valor %= 200;
+        valor %= 200; 
 
         // MOEDAS
         int m1 = valor / 100;
