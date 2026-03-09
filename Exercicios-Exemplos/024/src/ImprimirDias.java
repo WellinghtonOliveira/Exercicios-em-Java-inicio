@@ -30,5 +30,5 @@ public class ImprimirDias {
                 System.out.println("Dia desconhecido");
                 break;
         }
-    }
+    } 
 }
