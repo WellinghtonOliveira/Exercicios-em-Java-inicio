@@ -67,7 +67,7 @@ public class App {
             n *= 100;
             l *= 100;
 
-            int r1 = resolve(m, n, l, tabuas);
+            int r1 = resolve(m, n, l, tabuas); 
             int r2 = resolve(n, m, l, tabuas);
 
             int res = Math.min(r1, r2);
