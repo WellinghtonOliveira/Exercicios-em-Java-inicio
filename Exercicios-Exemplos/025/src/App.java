@@ -71,7 +71,7 @@ public class App {
             int r2 = resolve(n, m, l, tabuas);
 
             int res = Math.min(r1, r2);
-
+ 
             if (res == Integer.MAX_VALUE)
                 System.out.println("impossivel");
             else
