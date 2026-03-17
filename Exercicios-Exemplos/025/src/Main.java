@@ -54,7 +54,6 @@ public class Main {
         // Usamos um array de booleanos para marcar as tábuas já utilizadas
         boolean[] used = new boolean[boards.length];
 
-        int left = 0;
         int right = boards.length - 1;
 
         // Estratégia: Tentar preencher cada fila
