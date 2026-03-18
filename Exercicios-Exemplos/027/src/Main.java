@@ -11,12 +11,12 @@ public class Main {
 
         
         List<Integer> ordenados = new ArrayList<>(valores);
-        Collections.sort(ordenados);
+        Collections.sort(ordenados); 
         
         System.out.println(ordenados.get(0) +"\n"+ ordenados.get(1) +"\n"+ ordenados.get(2) +"\n");
         System.out.println(valores.get(0) +"\n"+valores.get(1) +"\n"+valores.get(2));
 
         
         scanner.close();
-    }
+    } 
 }
