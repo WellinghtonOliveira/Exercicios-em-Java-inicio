@@ -52,7 +52,7 @@ public class App {
         formas.add(new Quadrado(2));
         formas.add(new Circulo(2));
         formas.add(new Circulo(4));
-        formas.add(new Circulo(8));
+        formas.add(new Circulo(8)); 
 
         double areaTotal = 0;
 
