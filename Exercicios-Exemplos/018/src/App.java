@@ -47,7 +47,7 @@ public class App {
 
         int somaSalarialCLT = 0;
         int somaSalarialPj = 0;
-
+ 
         for (Funcionario f : funcionarios) {
             if (f instanceof FuncionarioCLT) {
                 somaSalarialCLT += f.salario();
