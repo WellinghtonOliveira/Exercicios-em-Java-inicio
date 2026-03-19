@@ -35,7 +35,7 @@ public class Main {
                 System.out.println(minBoards);
             }
         }
-        sc.close();
+        sc.close(); 
     }
 
     /**
