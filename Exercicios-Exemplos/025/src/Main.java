@@ -26,7 +26,7 @@ public class Main {
             long minBoards = Long.MAX_VALUE;
             if (res1 != -1)
                 minBoards = Math.min(minBoards, res1);
-            if (res2 != -1)
+            if (res2 != -1) 
                 minBoards = Math.min(minBoards, res2);
 
             if (minBoards == Long.MAX_VALUE) {
