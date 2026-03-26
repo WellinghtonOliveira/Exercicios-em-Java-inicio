@@ -23,7 +23,7 @@ public class ImprimirDias {
             case 5:
                 System.out.println("Sexta");
                 break;
-            case 6:
+            case 6: 
                 System.out.println("Sabado");
                 break;
             default:
