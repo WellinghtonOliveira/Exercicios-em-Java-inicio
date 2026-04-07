@@ -38,7 +38,7 @@ class Circulo extends Forma {
 }
 
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
         // Forma quadrado = new Quadrado(4);
         // Forma circulo = new Circulo(4);
