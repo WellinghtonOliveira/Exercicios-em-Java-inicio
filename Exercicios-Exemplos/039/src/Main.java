@@ -1,7 +1,8 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
         int entrada = scanner.nextInt();
@@ -9,8 +10,8 @@ public class Main {
         for (int i = 0; i < entrada; i++) {
             int cidadeA = scanner.nextInt();
             int cidadeB = scanner.nextInt();
-            double percentA = scanner.nextDouble();
-            double percentB = scanner.nextDouble();
+            double percentA = (double) scanner.nextDouble();
+            double percentB = (double) scanner.nextDouble();
 
             int anos = 0;
 
